@@ -36,6 +36,8 @@ body {
 }
 
 .output {
+    color: white;
+    font-size: 5vh;
     grid-column: 1 / -1;
     background-color: rgba(0, 0 , 0, .75);
     display: flex;
@@ -44,10 +46,12 @@ body {
     flex-direction: column;
     word-wrap: break-word;
     word-break: break-all;
+    padding-bottom: 3vh;
+    padding-right: 1vw;
 }
 
 .output .previous-operand {
     color: rgba(255, 255, 255, .75);
-    font-size: 1.5rem;
+    font-size: 2vh;
+    margin-right: 2vw;
 }
-
